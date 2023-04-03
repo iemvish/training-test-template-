@@ -290,3 +290,14 @@
     left: 40px;
     position: relative;
 }
+
+.second-block .customer-base-details{
+font-family: var(--heading-primary-font-family);}
+
+.second-block .customer-base-details .second-block-button .secondary-solid-btn
+{   
+    padding: 12px 30px;
+    color: var(--primary-color) !important;
+    background: var(--primary-background-color) !important;
+    border: 1px solid var(--primary-background-color) !important;
+}
