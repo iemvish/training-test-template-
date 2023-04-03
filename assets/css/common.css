@@ -1,0 +1,96 @@
+/* import variable.css file */
+@import "variable.css";
+
+/* body font family CSS */
+body{
+    font-family: var(--primary-font-family);
+}
+
+ /* header */
+
+header .container-xl .navbar .collapse ul li button {
+  background-color: var(--primary-background-color);
+  color: #ffffff;
+  text-transform: capitalize;
+
+}
+
+header .container-xl .navbar .navbar-brand {
+  width: 80px;
+}
+
+header .navbar {
+  padding: 0.3rem 1rem;
+}
+
+
+
+  /* footer CSS */
+  footer{
+    background-color: var(--primary-background-light-color);
+  }
+  .footer-bottom{
+    background-color: var(--primary-background-dark-color);
+  }
+  .footer-heading{
+    margin-bottom: 20px;
+    font-family: var(--secondary-font-family);
+  }
+  .footer-bottom ul li {
+    color: var(--primary-color);
+    display: inline-flex;
+
+}
+
+footer .container .icon-list ul li a {
+  color: var(--primary-color);
+}
+
+
+/* footer CSS */
+footer .container .icon-list ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+
+footer .container .middle-list ul li,
+footer .container .last-list ul li {
+  list-style: none;
+  margin-bottom: 20px;
+
+}
+
+footer .container .middle-list ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer .container .middle-list ul li:first-child,
+footer .container .middle-list ul li:nth-child(2) {
+  text-transform: uppercase;
+}
+
+footer .container .middle-list ul li:nth-child(3),
+footer .container .middle-list ul li:nth-child(4) {
+  text-transform: capitalize;
+}
+
+
+footer .container .last-list ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+
+}
+
+footer .container .last-list ul li a span i {
+  font-size: 14px;
+  padding-right: 6px;
+}
+
+
+
+.footer-bottom ul li:first-child {
+  padding-right: 47px;
+}
