@@ -12,7 +12,7 @@ header .container-xl .navbar .collapse ul li button {
   background-color: var(--primary-background-color);
   color: #ffffff;
   text-transform: capitalize;
-
+   font-family: var(--heading-primary-font-family)!important;
 }
 
 header .container-xl .navbar .navbar-brand {
@@ -22,6 +22,33 @@ header .container-xl .navbar .navbar-brand {
 header .navbar {
   padding: 0.3rem 1rem;
 }
+.header-top-bar{
+  width: 100%;
+  display: flex;
+  background-color: var(--primary-background-color);
+
+}
+.header-top-bar .container .social-media-list{
+  list-style: none;
+  text-align: end;
+}
+.header-top-bar .container .contact-list
+  {
+  list-style: none;
+  text-align: start;
+}
+.header-top-bar .container .social-media-list li,
+  .header-top-bar .container .contact-list li{
+  display: inline;
+  padding-right: 10px;
+}
+.header-top-bar .container .social-media-list li a,
+  .header-top-bar .container .contact-list li a{
+    text-decoration: none;
+    color:var(--primary-color);
+    font-size: 14px;
+  }
+
 
 
 

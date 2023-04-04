@@ -1,3 +1,25 @@
+<div class="header-top-bar py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <ul class="contact-list m-0 p-0 me-auto">
+        <li><a href="mailto: info@edifyingvoyages.com"><span><i class="fa-solid fa-envelope"></i>    </span>info@edifyingvoyages.com </a></li>
+        <li><a href=""><span><i class="fa-solid fa-phone"></i>  </span>+91-708-708-7356 </a></li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+      <ul class="social-media-list m-0 p-0">
+              <li><a href="https://www.facebook.com/Ditstek"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com/DitsTek"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/ditstek-innovations"><i class="fa-brands fa-linkedin-in"></i></a></li>
+              <li><a href="https://www.youtube.com/c/ditstek"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="https://www.instagram.com/ditstek_innovations/"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+      </div>
+    </div>
+  </div>
+
+</div>
 <header class=" sticky-top bg-white">
     <div class="container-xl">
       <nav class="navbar navbar-expand-lg ">
@@ -27,17 +49,17 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="porfolio.php">Portfolio</a>
+              <a class="nav-link" href="portfolio.php">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Blogs</a>
+              <a class="nav-link" href="blogs.php">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="contact-us.php">Contact us</a>
             </li>
             <li>
               <a href="">
-                <button type="button" class="btn">get free proposal</button>
+                <button type="button" class="btn ms-3">get free proposal</button>
               </a>
             </li>
           </ul>
